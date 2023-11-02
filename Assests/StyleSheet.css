@@ -1,0 +1,104 @@
+body{
+    background-color: #4EBBBB;
+}
+.first.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #062424;
+    align-items: center;
+    }
+.second.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:#2A6363 ;
+}
+.third {
+    background-color: #0B4141;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+}
+h1{
+    color: #6DA3A3;
+    font-size: 4rem;
+}
+h2{
+    font-size: 2rem;
+}
+.first.container img, .second.container img{
+    width: 400px;
+}
+.third.container img{
+    width: 200px;
+    margin-left: 27%;
+}
+.third.container p{
+    color: white;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size:2rem;
+}
+.Pilot{
+    color: #79533D;
+}
+.webdeveloper{
+    color: #D9D9D9;
+    font-size: 2.5rem;
+}
+.box0 {
+    color: beige;
+    grid-row: 1/2;
+    grid-column: 1/3;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.Contact.Me{
+    text-align: center;
+    background-color:#2A6363;
+    color: white;
+}
+.Contact.Me h2{
+    margin-top:0px;
+}
+.btn {
+    background-color: #94DDDD;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+  .btn:hover{
+    background-color: #6EA4A4;
+    color: black;
+  }
+  .fourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 2rem;
+  }
+#footer .copyright{
+    text-align: center;
+}
+@media (max-width:800px) {
+    .container{
+        display: block;
+        text-align: center;
+        padding: 0%;
+    }
+    .third.container img{
+    margin:0px;
+    }
+}
